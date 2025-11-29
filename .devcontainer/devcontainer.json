@@ -2,7 +2,7 @@
     "name": "Snake Web Environment",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
     "features": {
-        "ghcr.io/devcontainers/features/pythin:1": {
+        "ghcr.io/devcontainers/features/python:1": {
             "version": "3.11"
         }
     },
