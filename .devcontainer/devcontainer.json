@@ -1,0 +1,17 @@
+{
+    "name": "Snake Web Environment",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/devcontainers/features/pythin:1": {
+            "version": "3.11"
+        }
+    },
+    "postCreateCommand": "pip install pygbag",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
+}
