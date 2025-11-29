@@ -6,7 +6,7 @@
             "version": "3.11"
         }
     },
-    "postCreateCommand": "pip install pygbag",
+    "postCreateCommand": "pip install pygbag pygame",
     "customizations": {
         "vscode": {
             "extensions": [
